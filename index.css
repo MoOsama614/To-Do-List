@@ -1,0 +1,79 @@
+body {
+    background-color: beige;
+
+}
+#text {
+    display: block;
+    margin: 20px auto;
+    min-width: 500px;
+    padding: 20px;
+    border: none;
+    background-color: #eee;
+    color: black;
+    border-bottom: 2px solid;
+    user-select: none;
+    font-size: 15px;
+    box-shadow: 0px 0px 5px 2px #aaa;
+}
+
+#text:focus ,#text:hover {
+    outline: none;
+    background-color: #00bcd48c;
+    user-select: none;
+}
+#button {
+    display: block;
+    margin: auto;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    box-shadow: 0px 0px 5px 2px #aaa;
+    user-select: none;
+}
+.content {
+    background-color: #eee;
+    min-height: 400px;
+    margin: 30px auto;
+    min-width: 300px;
+    max-width: 500px;
+    display: flex;
+    padding: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 0px 0px 5px 2px #aaa;
+
+}
+
+.done {
+    background-color: #00bcd438;
+}
+.content > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    padding: 8px 6px;
+    width: 100%;
+    background-color: #00bcd48c;
+    cursor: pointer;
+    user-select: none;
+
+
+}
+.content .del {
+    cursor: pointer;
+    border: 2px solid #eee;
+    padding: 5px 8px;
+    border-radius: 8px;
+    user-select: none;
+    background-color: #0c3b37;
+    color: white;
+}
+
+.done {
+    background-color: #00bcd424 !important;
+}
